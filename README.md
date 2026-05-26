@@ -1,6 +1,5 @@
 # ebt
-A remake of elizabot from mass:werk
-
+A mod elizabot based on the version from mass:werk
 Go to: https://masswerk.at/elizabot/ to see the original version(source)
 
 CAUTION: Caution this is a BETA
