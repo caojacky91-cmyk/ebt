@@ -17,7 +17,7 @@ entries prestructured as layed out in Weizenbaum's description
 "ya","you","ya're","you are","i'm","i am","same","alike",
 "identical","alike","equivalent","alike"
 ];var elzPst=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var elzS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],
-"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var elzKw=[
+"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var elzK=[
 /*Array of
   ["<key>", <rank>, [
     ["<decomp>", [
