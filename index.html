@@ -80,7 +80,7 @@ Usage:
  
          the special keyword &quot;xnone&quot; holds the rules for default phrases (no match).
          
-         decomposition and reasembly syntax follow the &quot;canonical&quot; form:
+         decomposition and reasembly syntax are uncanonical:
 
          decomposition:
            * ... any words (incl. none)
@@ -91,15 +91,15 @@ Usage:
            (n) ... insert param of position n (first is &quot;1&quot;)
                    positions are any matchings of &quot;*&quot; or &quot;@synon&quot;
 
-         prs, psts, synonyms, keywords, decompositions all in lower case.
+         prs, psts, synonyms, kwds, decompositions all in lower case.
          all definitions are optional but at least elzK should be supplied.
          if no keywords are found `trsf()' returns the default string:
          &quot;I am at a loss for words.&quot;.
 
 Note:   &quot;elzPstTrsf&quot; is not a standard ELIZA feature and was included to provide
-             a smoothing mechanism for any productions of a bot-to-bot conversation.</PRE>	<P>Data representations and syntax follow the &quot;canonical&quot; form.<BR>
+             a smoothing mechanism for any productions of a bot-to-bot conversation.</PRE><P>Data representations and syntax are uncanonical.<BR>
 (Since all data is transformed to and matched as regular expressions, you could also use regexps in the keywords and decompositions. Do not use any &quot;*&quot; expressions in decomposition patterns as &quot;*&quot; will be transformed to a regexp-pattern itself.)<BR>	
-The structure of &quot;elzK&quot; follows the internal data model as described by J. Weizenbaum in his article <A HREF="#ELIZA">[1]</A>.</P><P>&nbsp;<BR>	&quot;elizabot.js&quot; by &copy; Norbert Landsteiner 2005;<BR>	mass:werk &#150; media environments &lt;<A HREF="https://www.masswerk.at/" TARGET="_blank">https://www.masswerk.at</A>&gt;.</P><P>Distribution:<BR>	&quot;elizabot.js&quot; is free software and provided &quot;as is&quot;.
+The structure of &quot;elzK&quot; doesn't follows the internal data model as described by J. Weizenbaum in his article <A HREF="#ELIZA">[1]</A>.</P><P>&nbsp;<BR>	&quot;elizabot.js&quot; by &copy; Norbert Landsteiner 2005;<BR>	mass:werk &#150; media environments &lt;<A HREF="https://www.masswerk.at/" TARGET="_blank">https://www.masswerk.at</A>&gt;.</P><P>Distribution:<BR>	&quot;elizabot.js&quot; is free software and provided &quot;as is&quot;.
 It is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.</P><P>Compatibility:<BR>
 &quot;elizabt.js&quot; should be compatible to most browsers with support of RegExp (that is all standard browsers).<BR>(Version 1.1 doesn't require the support of lambda functions in RegExps any more.)</P>
 </DIV></TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR><TR><TD COLSPAN="2"><B>Download</B>: <A HREF="elizabot.zip">elizabot.zip</A> &nbsp;<SMALL>(ZIP file, 15 KB incl. documentation)</SMALL><BR><BR></BR></TD></TR><TR><TD COLSPAN="2"><B>ElizaBot Original Web</B>: &lt;<A HREF="https://masswerk.at/elizabot/">https://www.masswerk.at/elizabot/</A>&gt;</TD></TR>
