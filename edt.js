@@ -119,5 +119,5 @@ entries prestructured as layed out in Weizenbaum's description
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like", 10, [["* @be *like *",["ref alike"]]]],["different", 0, [["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
 /*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var elzPstTrsfs=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
+here: cleanings for multiple bots talking to each other*/var elzPstTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
 	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
