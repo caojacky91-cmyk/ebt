@@ -1,24 +1,22 @@
-/*data for ebt.js
+/*data for eb.js
 entries prestructured as layed out in Weizenbaum's description 
 [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var elzInts=["How do you do.  Please tell me your problem.",
-// additions(no original)
+//additions(no original)
 "Please tell me what's been bothering you.","Is something troubling you ?",
-// additions(no original)
+//additions(no original)
 "Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var elzFnls=["Goodbye.  It was nice talking to you.",
-// additions(no original)
+//additions(no original)
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
-// additions(no original)
+//additions(no original)
 "Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","The time for this discuss is over. I hope to see you later. Goodbye."
 ];var elzQs=["bye","goodbye","done","exit","quit"];var elzPrs=[
 "dont", "don't","cant", "can't","wont", "won't","recollect","remember","recall","remember","dreamt","dreamed",
 "dreams","dream","maybe","perhaps","certainly","yes","machine","computer",
 "machines","computer","computers","computer","were","was","you're","you are",
-// addition(no original)
-"ya","you","ya're","you are","i'm","i am","same","alike",
-"identical","alike","equivalent","alike"
+//addition(no original)
+"ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"
 ];var elzPst=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var elzS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],
-"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var elzK=[
-/*Array of
+"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var elzK=[/*Array of
   ["<key>", <rank>, [
     ["<decomp>", [
       "<reasmb>",
@@ -32,18 +30,18 @@ entries prestructured as layed out in Weizenbaum's description
     ]]
   ]]*/["xnone", -1, [["*", ["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
      "Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
-     // addition(not original)
+     //addition(no original)
      "Intresting.", "What does that make you think ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize", 0, [["*", [
      "Please don't apologise.","Apologies are not necessary.","I've told you that apologies are not required.","It did not bother me.  Please continue.",
-     // addition(no original)
+     //addition(no original)
      "You not need to apologise -- please continue."]]]],["remember", 5, [["* i remember *", ["Do you often think of (2) ?","Does thinking of (2) bring anything else to mind ?","What else do you recollect ?","Why do you remember (2) just now ?","What in the present situation reminds you of (2) ?",
      "What is the connection between me and (2) ?","What else does (2) remind you of ?"]],["* do you remember *", ["Did you think I would forget (2) ?",
      "Why do you think I should recall (2) now ?","What about (2) ?","ref what","You mentioned (2) ?"]],["* you remember *", ["How could I forget (2) ?",
      "What about (2) should I remember ?","ref you"]]]],["forget", 5, [["* i forget *", ["Can you think of why you might forget (2) ?","Why can't you remember (2) ?",
      "How often do you think of (2) ?","Does it bother you to forget that ?","Could it be a mental block ?","Are you generally forgetful ?","Do you think you are suppressing (2) ?",
-      // addition(no original)
+      //addition(no original)
      "You could think about something about what you forget ?"]],["* did you forget *", ["Why do you ask for ?","Are you sure you told me ?","Would it bother you if I forgot (2) ?","Why should I recall (2) just now ?","ref what","Tell me more about (2).",
-     // addition(no original)
+     //addition(no original)
      "You told me about (2) before ?","I really forgot that ?"]]]],["if", 3, [["* if *", ["Do you think it's likely that (2) ?",
      "Do you wish that (2) ?","What do you know about (2) ?","Really, if (2) ?", "What would you do if (2) ?",
      "But what are the chances that (2) ?", "What does this speculation lead to ?"]]]],["dreamed", 4, [["* i dreamed *", [
@@ -79,7 +77,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Do you really think so ?","But you are not sure you (3).","Do you really doubt you (3) ?"]],["* i* @belief *you *",["ref you"]],["* i am *", [
      "Is it because you are (2) that you came to me ?","How long have you been (2) ?",
      "Do you believe it is normal to be (2) ?","Do you enjoy being (2) ?","Do you know anyone else who is (2) ?",
-      // addition(no original)
+      //addition(no original)
      "Have you told anyone else that you are (2) ?","What made you to be (2) ?"]],["* i @cannot *", ["How do you know that you can't (3) ?","Have you tried ?","Perhaps you could (3) now.",
      "Do you really want to be able to (3) ?","What if you could (3) ?"]],["* i don't *", [
      "Don't you really (2) ?","Why don't you (2) ?","Do you wish to be able to (2) ?","Does that trouble you ?"]],["* i feel *", [
@@ -93,7 +91,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Does someone else believe I (2) you ?"]],["* you *", ["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],
 //modded
 ["yes|ok|okay", 0, [["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",
-      // addition(no original)
+      //addition(no original)
      "You seem pretty sure."]]]],["no", 0, [["* no one *",[//mod
      "Are you sure,no one (2) ?","Surely someone (2).","Can you think of anyone at all ?","Are you thinking of a very special person ?",
      "Who, may I ask ?","You have a particular person in mind, don't you ?","Who do you think you are talking about ?"]],["*",[//mod
@@ -107,7 +105,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Why do you ask ?","Does that question interest you ?","What is it you really want to know ?","Are such questions much on your mind ?",
      "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?",
      "Have you asked such questions before ?","Have you asked anyone else ?",
-     // addition(no original)
+     //addition(no original)
      "You are asking for some specific reason ?","What comes to your mind ?","What seems to be the answer ?"]]]],
 //remade
 ["re:(who|when|where|how)\\s+(.*)", 0,[["(.*)",["ref what"]]]],["because", 0,[["*",[
