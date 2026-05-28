@@ -1,22 +1,22 @@
 /*data for eb.js
 entries prestructured as layed out in Weizenbaum's description 
-[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var elzInts=["How do you do.  Please tell me your problem.",
+[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var lzInts=["How do you do.  Please tell me your problem.",
 //additions(no original)
 "Please tell me what's been bothering you.","Is something troubling you ?",
 //additions(no original)
-"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var elzFnls=["Goodbye.  It was nice talking to you.",
+"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var lzFnls=["Goodbye.  It was nice talking to you.",
 //additions(no original)
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
 //additions(no original)
 "Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","The time for this discuss is over. I hope to see you later. Goodbye."
-];var elzQs=["bye","goodbye","done","exit","quit"];var elzPrs=[
+];var lzQs=["bye","goodbye","done","exit","quit"];var lzPrs=[
 "dont", "don't","cant", "can't","wont", "won't","recollect","remember","recall","remember","dreamt","dreamed",
 "dreams","dream","maybe","perhaps","certainly","yes","machine","computer",
 "machines","computer","computers","computer","were","was","you're","you are",
 //addition(no original)
 "ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"
-];var elzPst=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var elzS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],
-"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var elzK=[/*Array of
+];var lzPst=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var lzS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],
+"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var lzK=[/*Array of
   ["<key>", <rank>, [
     ["<decomp>", [
       "<reasmb>",
@@ -117,5 +117,5 @@ entries prestructured as layed out in Weizenbaum's description
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like", 10, [["* @be *like *",["ref alike"]]]],["different", 0, [["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
 /*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var elzPstTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
+here: cleanings for multiple bots talking to each other*/var lzPstTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
 	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof

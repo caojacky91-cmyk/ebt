@@ -1,9 +1,9 @@
-<!DOCTYPE HTML><HTML LANG="en"><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8"><TITLE>Eliza (eb.js)</TITLE><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="eb.js"></SCRIPT><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="edt.js"></SCRIPT><SCRIPT SRC="t.js" LANGUAGE="JavaScript" TYPE="text/javascript"></SCRIPT><LINK REL="stylesheet" HREF="style.css" TYPE="text/css"><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">const elz=new EB();var cl=new Array();const dsplCls=60;const dsplRws=20;var ci=false;function elzRt(){elz.rt();cl.length=0;ci=false;elzStep();};function elzStep(){var f=document.forms.eform;if(f.ue.value.trim()===''&&ci)return;var edspl=document.getElementById('edspl');var usri=prsInp(f.ue.value);if(elz.q){f.ue.value='';if(confirm("This session is over.\nStart over?"))elzRt();f.ue.focus();return;}else if(usri!=''){var ur='<span style="color:#021bed">YOU</span>: '+usri.prd;var rp='<span style="color:#21c628">ELIZA</span>: '+elz.trf(usri.s);cl.push(ur);cl.push(rp);
+<!DOCTYPE HTML><HTML LANG="en"><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8"><TITLE>Eliza (eb.js)</TITLE><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="eb.js"></SCRIPT><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="edt.js"></SCRIPT><SCRIPT SRC="t.js" LANGUAGE="JavaScript" TYPE="text/javascript"></SCRIPT><LINK REL="stylesheet" HREF="style.css" TYPE="text/css"><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">const lz=new EB();var cl=new Array();const dsplCls=60;const dsplRws=20;var ci=false;function lzRt(){lz.rt();cl.length=0;ci=false;lzStep();};function lzStep(){var f=document.forms.eform;if(f.ue.value.trim()===''&&ci)return;var edspl=document.getElementById('edspl');var usri=prsInp(f.ue.value);if(lz.q){f.ue.value='';if(confirm("This session is over.\nStart over?"))lzRt();f.ue.focus();return;}else if(usri!=''){var ur='<span style="color:#021bed">YOU</span>: '+usri.prd;var rp='<span style="color:#21c628">ELIZA</span>: '+lz.trf(usri.s);cl.push(ur);cl.push(rp);
     // display nicely(fit to div with last line free - reserved for extra line caused by word wrap)
     var tp=new Array();var l=0;for(var i=cl.length-1;i>=0;i--){l+=1+Math.floor(cl[i].length/dsplCls);if(l<dsplRws)tp.push(cl[i]);else break;};cl=tp.reverse();edspl.innerHTML=cl.join('<br>');}else if(cl.length==0){
     // no input and no saved lines->output initial
-    var il='<span style="color:#21c628">ELIZA</span>: '+elz.ginl();cl.push(il);edspl.innerHTML=il+'<br>';ci=true;};f.ue.value='';f.ue.focus();};</SCRIPT></HEAD><BODY TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" STYLE="border:0;font-family:times new roman,helvetica,arial,none;background:#fff" onload="window.setTimeout('elzRt()',100)"><A NAME="top"></A><CENTER><P>&nbsp;</P><H3>Eliza</H3><FORM NAME="eform" onsubmit="elzStep();return false"><TABLE BORDER="0" CELLSPACING="10" CELLPADDING="0"> <SMALL><H4><A HREF="#doc">See ELIZA Doc</A></H4><SMALL><TR><TD COLSPAN="2"><DIV ID="edspl" STYLE="width:100%;height:400px;border:1px solid#000;overflow:auto;font-family:sans-serif,arial,helvetica,none"></DIV></TD></TR>
-<TR VALIGN="middle"><TD><INPUT TYPE="text" NAME="ue" SIZE="50" STYLE="border:1px solid#ccc" PLACEHOLDER="Type here…"></TD><TD ALIGN="right"><INPUT ID="sn-bt" STYLE="color:#25b632" TYPE="submit" VALUE="&nbsp;Send&nbsp;"> <INPUT ID="rt-bt" STYLE="color:#ff0030" TYPE="reset" VALUE="Reset" onClick="window.setTimeout('elzRt()',100)"></TD></TR></TABLE></FORM><P>&nbsp;</P><P ALIGN="center">For a comfortable terminal-like interface see the <A HREF="https://www.masswerk.at/elizabot/eliza.html">ELIZA-Terminal</A>.</P><P>&nbsp;</P><TABLE BORDER="0" CELLSPACING="12" CELLPADDDING="0"><DIV STYLE="border:1px solid#ccc"><A NAME="doc"></A><TR><TD COLSPAN="2">
+    var il='<span style="color:#21c628">ELIZA</span>: '+lz.ginl();cl.push(il);edspl.innerHTML=il+'<br>';ci=true;};f.ue.value='';f.ue.focus();};</SCRIPT></HEAD><BODY TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" STYLE="border:0;font-family:times new roman,helvetica,arial,none;background:#fff" onload="window.setTimeout('lzRt()',100)"><A NAME="top"></A><CENTER><P>&nbsp;</P><H3>Eliza</H3><FORM NAME="eform" onsubmit="lzStep();return false"><TABLE BORDER="0" CELLSPACING="10" CELLPADDING="0"> <SMALL><H4><A HREF="#doc">See ELIZA Doc</A></H4><SMALL><TR><TD COLSPAN="2"><DIV ID="edspl" STYLE="width:100%;height:400px;border:1px solid#000;overflow:auto;font-family:sans-serif,arial,helvetica,none"></DIV></TD></TR>
+<TR VALIGN="middle"><TD><INPUT TYPE="text" NAME="ue" SIZE="50" STYLE="border:1px solid#ccc" PLACEHOLDER="Type here…"></TD><TD ALIGN="right"><INPUT ID="sn-bt" STYLE="color:#25b632" TYPE="submit" VALUE="&nbsp;Send&nbsp;"> <INPUT ID="rt-bt" STYLE="color:#ff0030" TYPE="reset" VALUE="Reset" onClick="window.setTimeout('lzRt()',100)"></TD></TR></TABLE></FORM><P>&nbsp;</P><P ALIGN="center">For a comfortable terminal-like interface see the <A HREF="https://www.masswerk.at/elizabot/eliza.html">ELIZA-Terminal</A>.</P><P>&nbsp;</P><TABLE BORDER="0" CELLSPACING="12" CELLPADDDING="0"><DIV STYLE="border:1px solid#ccc"><A NAME="doc"></A><TR><TD COLSPAN="2">
 <H3>Documentation</H3>ELIZA is a natural language conversation program described by Joseph Weizenbaum in January 1966 <A HREF="#ELIZA">[1]</A>.<BR>It features the dialog between a human user and a computer program representing a mock Rogerian psychotherapist.<BR>
 The original program was implemented on the IBM 7094 of the Project MAC time-sharing system at MIT and was written in MAD-SLIP.<BR><BR>This is how Joseph Weizenbaum discussed his choice for a conversation model as it would be found in psychotherapist's session:<BLOCKQUOTE>
 At this writing, the only serious ELIZA scripts which exist are some which cause
@@ -15,8 +15,7 @@ psychiatrist &quot;I went for a long boat ride&quot; and he responded &quot;Tell
 that he had some purpose in so directing the subsequent conversation. It is important to note that this assumption is one made by the speaker. Whether it is
 realistic or not is an altogether separate question. In any case, it has a crucial psychological utility in that it serves the speaker to maintain his
 sense of being heard and understood. The speaker furher defends his impression (which even in real life may be illusory) by attributing to his conversational partner all sorts of background knowledge,
-insights and reasoning ability. But again, these are the <em>speaker's</em> contribution to the conversation.</BLOCKQUOTE>
-For a conversation example given by Joseph Weizenbaum in his article see the <A HREF="elz_tst.html">Eliza Test</A> page.</TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR><TR><TD COLSPAN="2"><H3>About eb.js</H3>	<P>&quot;eb.js&quot; is an object oriented JavaScript library for [multiple] instances of the Eliza program.</P><PRE STYLE="line-height:120%;">Synopsis:
+insights and reasoning ability. But again, these are the <em>speaker's</em> contribution to the conversation.</BLOCKQUOTE>For a conversation example given by Joseph Weizenbaum in his article see the <A HREF="et.html">Eliza Test</A> page.</TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR><TR><TD COLSPAN="2"><H3>About eb.js</H3>	<P>&quot;eb.js&quot; is an object oriented JavaScript library for [multiple] instances of the Eliza program.</P><PRE STYLE="line-height:120%;">Synopsis:
 
          new EB( <I>&lt;random-choice-disable-flag&gt;</I> ); <SPAN STYLE="color:333">// default 'false'</SPAN>
          EB.prototype.trf( <I>&lt;inputstr&gt;</I> );
@@ -49,16 +48,16 @@ Usage:
 </PRE>	<P>As EB is a totally self-contained object and instances use their own internal memory it's possible to have multiple instances of the EB object talking to each other.</P>
 	<P>EB is also a general chatbot engine that can be supplied with any rule set.</P><PRE STYLE="line-height:120%;">Data Structures (cf: &quot;edt.js&quot;):
 
-         elzInts ......... Array of initial phrases
-         elzFnls  .......... Array of final phrases
-         elzQ ............ Array of quit phrases
-         elzPrs ............. Array of alternating name value pairs for preprocessing
-         elzPst ............ Array of alternating name value pairs for postprocessing
-         elzS ........... Object of words and their synonyms (as array)
-         elzPstTrsf ... regexp/replacement pairs to be performed as final cleanings
-         elzK ......... Array of keywords with decompositions and reasemblies
+         lzInts ......... Array of initial phrases
+         lzFnls  .......... Array of final phrases
+         lzQ ............ Array of quit phrases
+         lzPrs ............. Array of alternating name value pairs for preprocessing
+         lzPst ............ Array of alternating name value pairs for postprocessing
+         lzS ........... Object of words and their synonyms (as array)
+         lzPstTrsf ... regexp/replacement pairs to be performed as final cleanings
+         lzK ......... Array of keywords with decompositions and reasemblies
 
-         elzK elements are of:
+         lzK elements are of:
        
          [&quot;&lt;key&gt;&quot;, &lt;rank&gt;,
            [
@@ -92,14 +91,14 @@ Usage:
                    positions are any matchings of &quot;*&quot; or &quot;@synon&quot;
 
          prs, psts, synonyms, kwds, decompositions all in lower case.
-         all definitions are optional but at least elzK should be supplied.
+         all definitions are optional but at least lzK should be supplied.
          if no keywords are found `trf()' returns the default string:
          &quot;I am at a loss for words.&quot;.
 
-Note:   &quot;elzPstTrsf&quot; is not a standard ELIZA feature and was included to provide
+Note:   &quot;lzPstTrsf&quot; is not a standard ELIZA feature and was included to provide
              a smoothing mechanism for any productions of a bot-to-bot conversation.</PRE><P>Data representations and syntax are uncanonical.<BR>
 (Since all data is transformed to and matched as regular expressions, you could also use regexps in the keywords and decompositions. Do not use any &quot;*&quot; expressions in decomposition patterns as &quot;*&quot; will be transformed to a regexp-pattern itself.)<BR>	
-The structure of &quot;elzK&quot; doesn't follows the internal data model as described by J. Weizenbaum in his article <A HREF="#ELIZA">[1]</A>.</P><P>&nbsp;<BR>	&quot;elizabot.js&quot; by &copy; Norbert Landsteiner 2005;<BR>	mass:werk &#150; media environments &lt;<A HREF="https://www.masswerk.at/" TARGET="_blank">https://www.masswerk.at</A>&gt;.</P><P>Distribution:<BR>	&quot;elizabot.js&quot; is free software and provided &quot;as is&quot;.
+The structure of &quot;lzK&quot; doesn't follows the internal data model as described by J. Weizenbaum in his article <A HREF="#ELIZA">[1]</A>.</P><P>&nbsp;<BR>	&quot;elizabot.js&quot; by &copy; Norbert Landsteiner 2005;<BR>	mass:werk &#150; media environments &lt;<A HREF="https://www.masswerk.at/" TARGET="_blank">https://www.masswerk.at</A>&gt;.</P><P>Distribution:<BR>	&quot;elizabot.js&quot; is free software and provided &quot;as is&quot;.
 It is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.</P><P>Compatibility:<BR>
 &quot;elizabt.js&quot; should be compatible to most browsers with support of RegExp (that is all standard browsers).<BR>(Version 1.1 doesn't require the support of lambda functions in RegExps any more.)</P>
 </DIV></TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR><TR><TD COLSPAN="2"><B>Download</B>: <A HREF="elizabot.zip">elizabot.zip</A> &nbsp;<SMALL>(ZIP file, 15 KB incl. documentation)</SMALL><BR><BR></BR></TD></TR><TR><TD COLSPAN="2"><B>ElizaBot Original Web</B>: &lt;<A HREF="https://masswerk.at/elizabot/">https://www.masswerk.at/elizabot/</A>&gt;</TD></TR>
