@@ -1,2 +1,2 @@
-//Sanitizes user input to prevent XSS attacks.Convents all to plain text.@param{string} input The user input to sanitize.@return{object} The sanitized input.
-function prsInp(e,d=0){if(e.trim()=='')return'';if(d)console.log('Sanitizing entry: "'+e+'"');var v=(typeof e=='string')?e:e.value;return{prsd:new DOMParser().parseFromString(v,'text/html').documentElement.textContent,str:v.toString()};};
+//Sanitizes user input to prevent XSS attacks.Convents all to plain text.@param{str} input The user input to sanitize.@returns{obj} The sanitized input.
+function prsInp(e,d=0){if(e.trim()=='')return'';if(d)console.log('Sanitizing entry: "'+e+'"');var v=(typeof e=='string')?e:e.value;return{prd:new DOMParser().parseFromString(v,'text/html').documentElement.textContent,s:v.toString()};};
