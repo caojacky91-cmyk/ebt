@@ -1,6 +1,6 @@
-/*data for eb.js
+/*dt for eb.js
 entries prestructured as layed out in Weizenbaum's description 
-[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var eIns=["How do you do.  Please tell me your problem.",
+[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var eI=["How do you do.  Please tell me your problem.",
 //additions(no original)
 "Please tell me what's been bothering you.","Is something troubling you ?",
 //additions(no original)
@@ -9,14 +9,12 @@ entries prestructured as layed out in Weizenbaum's description
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
 //additions(no original)
 "Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Time is over now. Have a nice day. Goodbye.",
-];var eQ=["bye","goodbye","done","exit","quit"];var ePrs=[
+];var eQ=["bye","goodbye","done","exit","quit"];var ePr=[
 "dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
 "dreams","dream","maybe","perhaps","certainly","yes","machine","computer",
 "machines","computer","computers","computer","were","was","you're","you are",
 //addition(no original)
-"ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"
-];var ePst=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var eS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],
-"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var eK=[/*Array of
+"ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"];var ePt=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var eS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var eK=[/*Array of
   ["<key>", <rank>, [
     ["<decomp>", [
       "<reasmb>",
@@ -28,7 +26,7 @@ entries prestructured as layed out in Weizenbaum's description
       "<reasmb>",
       "<reasmb>"
     ]]
-  ]]*/["xnone",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
+  ]]*/["xnn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
      "Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
      //addition(no original)
      "Intresting.","What does that make you think ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize",0,[["*",[
@@ -49,8 +47,8 @@ entries prestructured as layed out in Weizenbaum's description
      "What does that dream suggest to you ?","Do you dream often ?","What persons appear in your dreams ?",
      "Do you believe that dreams have something to do with your problem ?"]]]],["perhaps",0,[["*",[
      "You don't seem quite certain.","Why the uncertain tone ?","Can't you be more positive ?","You aren't sure ?","Don't you know ?","How likely, would you estimate ?","How sure you are ?"]]]],
-["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xforeign","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xforeign","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xforeign","I told you before,I don't understand Italian."]]]],
-["espanol",0,[["*",["ref xforeign","I told you before, I don't understand Spanish."]]]],["xforeign",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
+["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xfrgn","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xfrgn","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xfrgn","I told you before,I don't understand Italian."]]]],
+["espanol",0,[["*",["ref xfrgn","I told you before, I don't understand Spanish."]]]],["xfrgn",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
      //addition(no original)
      "How do you do. Please explain your problem.","How are you. Please tell me your problem.","Hello. I'm here to hear you.","Hi. What could be your problem ?","Hello. If you have any problem let me know.","Hi. I'm here to hear your problems.","Hi. What is you problem ?",
      "Hi. Please tell me your problems.","Hello. I'm here to hear you.","Hi. I'm here to talk. Tell me about your problems."]]]],["computer",50,[["*",["Do computers worry you ?","Why do you mention computers ?",
@@ -103,7 +101,7 @@ entries prestructured as layed out in Weizenbaum's description
      "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?",
      "Have you asked such questions before ?","Have you asked anyone else ?",
      //addition(no original)
-     "You are asking for some specific reason ?","What comes to your mind ?","What seems to be the answer ?"]]]],
+     "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],
 //remade
 ["%r(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",[
      "Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
@@ -114,5 +112,5 @@ entries prestructured as layed out in Weizenbaum's description
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like",10,[["* @be *like *",["ref alike"]]]],["different",0,[["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
 /*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var ePstTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
+here: cleanings for multiple bots talking to each other*/var ePtTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
 	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
