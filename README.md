@@ -1,7 +1,7 @@
 # eb
-A elizabot mod based on the version from mass:werk, called "EB"
+A elizabot mod based on the mass:werk's version("EB")
 
-Go to: https://masswerk.at/elizabot/ to see the original version(source)
+Go to: https://www.masswerk.at/elizabot/ to see the original version(source)
 
 CAUTION: Caution this is a BETA
 
