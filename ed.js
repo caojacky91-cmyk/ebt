@@ -4,7 +4,7 @@ entries prestructured as layed out in Weizenbaum's description
 //additions(no original)
 "Please tell me what's been bothering you.","Is something troubling you ?",
 //additions(no original)
-"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var eFn=["Goodbye.  It was nice talking to you.",
+"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var eF=["Goodbye.  It was nice talking to you.",
 //additions(no original)
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
 //additions(no original)
