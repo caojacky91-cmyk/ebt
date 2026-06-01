@@ -62,31 +62,24 @@ entries prestructured as layed out in Weizenbaum's description
      "Are you worried about someone else's (2) ?","Really, my (2) ?","What makes you think of my (2) ?","Do you want my (2) ?"]]]],
 ["was",2,[["* was i *",["What if you were (2) ?","Do you think you were (2) ?","Were you (2) ?","What would it mean if you were (2) ?",'What does " (2) " suggest to you ?',"ref what"]],
 ["* i was *",["Were you really ?","Why do you tell me you were (2) now ?","Perhaps I already know you were (2)."]],["* was you *",[
-     "Would you like to believe I was (2) ?","What suggests that I was (2) ?","What do you think ?","Perhaps I was (2).","What if I had been (2) ?"]]]],
-["i",0,[["* i @desire *",["What would it mean to you if you got (3) ?","Why do you want (3) ?",
+     "Would you like to believe I was (2) ?","What suggests that I was (2) ?","What do you think ?","Perhaps I was (2).","What if I had been (2) ?"]]]],["i",0,[["* i @desire *",["What would it mean to you if you got (3) ?","Why do you want (3) ?",
       "Suppose you got (3) soon.","What if you never got (3) ?","What would getting (3) mean to you ?","What does wanting (3) have to do with this discussion ?"]],
- ["* i am* @sad *",["I am sorry to hear that you are (3).","Do you think coming here will help you not to be (3) ?","I'm sure it's not pleasant to be (3).","Can you explain what made you (3) ?",
-     //addition(no original)
+ ["* i am* @sad *",["I am sorry to hear that you are (3).","Do you think coming here will help you not to be (3) ?","I'm sure it's not pleasant to be (3).","Can you explain what made you (3) ?",//addition(no original)
      "Can you remember what made you to be (3) ?"]],["* i am* @happy *",["How have I helped you to be (3) ?","Has your treatment made you (3) ?",
      "What makes you (3) just now ?","Can you explain why you are suddenly (3) ?"]],["* i was *",["ref was"]],["* i @belief i *",[
      "Do you really think so ?","But you are not sure you (3).","Do you really doubt you (3) ?"]],["* i* @belief *you *",["ref you"]],["* i am *",[
-     "Is it because you are (2) that you came to me ?","How long have you been (2) ?",
-     "Do you believe it is normal to be (2) ?","Do you enjoy being (2) ?","Do you know anyone else who is (2) ?",
-      //addition(no original)
+     "Is it because you are (2) that you came to me ?","How long have you been (2) ?","Do you believe it is normal to be (2) ?","Do you enjoy being (2) ?","Do you know anyone else who is (2) ?",//addition(no original)
      "Have you told anyone else that you are (2) ?","What made you to be (2) ?"]],["* i @cannot *",["How do you know that you can't (3) ?","Have you tried ?","Perhaps you could (3) now.",
      "Do you really want to be able to (3) ?","What if you could (3) ?"]],["* i don't *",[
      "Don't you really (2) ?","Why don't you (2) ?","Do you wish to be able to (2) ?","Does that trouble you ?"]],["* i feel *",[
      "Tell me more about such feelings.","Do you often feel (2) ?",
      "Do you enjoy feeling (2) ?","Of what does feeling (2) remind you ?"]],["* i * you *",["Perhaps in your fantasies we (2) each other.","Do you wish to (2) me ?",
-     "You seem to need to (2) me.","Do you (2) anyone else ?"]],["*",[ "You say (1) ?","Can you elaborate on that ?","Do you say (1) for some special reason ?","That's quite interesting."]]]],
-["you",0,[["* you remind me of *",["ref alike"]],["* you are *",[
+     "You seem to need to (2) me.","Do you (2) anyone else ?"]],["*",[ "You say (1) ?","Can you elaborate on that ?","Do you say (1) for some special reason ?","That's quite interesting."]]]],["you",0,[["* you remind me of *",["ref alike"]],["* you are *",[
      "What makes you think I am (2) ?","Does it please you to believe I am (2) ?","Do you sometimes wish you were (2) ?","Perhaps you would like to be (2)."]],["* you* me *",[
      "Why do you think I (2) you ?","You like to think I (2) you -- don't you ?",
      "What makes you think I (2) you ?","Really, I (2) you ?","Do you wish to believe I (2) you ?","Suppose I did (2) you -- what would that mean ?",
-     "Does someone else believe I (2) you ?"]],["* you *",["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],
-//modded
-["yes|ok|okay",0,[["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",
-      //addition(no original)
+     "Does someone else believe I (2) you ?"]],["* you *",["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],//modded
+["yes|ok|okay",0,[["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",//addition(no original)
      "You seem pretty sure."]]]],["no",0,[["* no one *",[//mod
      "Are you sure,no one (2) ?","Surely someone (2).","Can you think of anyone at all ?","Are you thinking of a very special person ?",
      "Who,may I ask ?","You have a particular person in mind, don't you ?","Who do you think you are talking about ?"]],["*",[//mod
@@ -99,8 +92,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Whether or not you can (2) depends on you more than on me.","Do you want to be able to (2) ?","Perhaps you don't want to (2).","ref what"]]]],["what",0,[["*",[
      "Why do you ask ?","Does that question interest you ?","What is it you really want to know ?","Are such questions much on your mind ?",
      "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?",
-     "Have you asked such questions before ?","Have you asked anyone else ?",
-     //addition(no original)
+     "Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
      "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],
 //remade
 ["%r(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",[
@@ -112,5 +104,5 @@ entries prestructured as layed out in Weizenbaum's description
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like",10,[["* @be *like *",["ref alike"]]]],["different",0,[["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
 /*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var ePtTrsf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
+here: cleanings for multiple bots talking to each other*/var ePtTrf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
 	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
