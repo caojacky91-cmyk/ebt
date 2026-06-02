@@ -9,10 +9,8 @@ entries prestructured as layed out in Weizenbaum's description
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
 //additions(no original)
 "Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Time is over now. Have a nice day. Goodbye.",
-];var eQ=["bye","goodbye","done","exit","quit"];var ePr=[
-"dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
-"dreams","dream","maybe","perhaps","certainly","yes","machine","computer",
-"machines","computer","computers","computer","were","was","you're","you are",
+];var eQ=["bye","goodbye","done","exit","quit"];var ePr=["dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
+"dreams","dream","maybe","perhaps","certainly","yes","machine","computer","machines","computer","computers","computer","were","was","you're","you are",
 //addition(no original)
 "ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"];var ePt=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var eS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var eK=[/*Array of
   ["<key>", <rank>, [
@@ -79,15 +77,14 @@ entries prestructured as layed out in Weizenbaum's description
      "Why do you think I (2) you ?","You like to think I (2) you -- don't you ?",
      "What makes you think I (2) you ?","Really, I (2) you ?","Do you wish to believe I (2) you ?","Suppose I did (2) you -- what would that mean ?",
      "Does someone else believe I (2) you ?"]],["* you *",["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],//modded
-["yes|ok|okay",0,[["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",//addition(no original)
+  ["yes|ok|okay",0,[["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",//addition(no original)
      "You seem pretty sure."]]]],["no",0,[["* no one *",[//mod
      "Are you sure,no one (2) ?","Surely someone (2).","Can you think of anyone at all ?","Are you thinking of a very special person ?",
      "Who,may I ask ?","You have a particular person in mind, don't you ?","Who do you think you are talking about ?"]],["*",[//mod
      "Are you saying no just to be negative ?","You are being a bit negative.","Why not ?",'Why "no" ?']]]],["my",2,[["$ * my *",[
      "Does that have anything to do with the fact that your (2) ?","Lets discuss further why your (2).","Earlier you said your (2).","But your (2)."]],["* my* @family *",[
      "Tell me more about your family.","Who else in your family (4) ?","Your (3) ?","What else comes to your mind when you think of your (3) ?"]],
- ["* my *",["Your (2) ?","Why do you say your (2) ?",
-     "Does that suggest anything else which belongs to you ?","Is it important to you that your (2) ?"]]]],["can",0,[["* can you *",[
+ ["* my *",["Your (2) ?","Why do you say your (2) ?","Does that suggest anything else which belongs to you ?","Is it important to you that your (2) ?"]]]],["can",0,[["* can you *",[
      "You believe I can (2) don't you ?","ref what","You want me to be able to (2).","Perhaps you would like to be able to (2) yourself."]],["* can i *",[
      "Whether or not you can (2) depends on you more than on me.","Do you want to be able to (2) ?","Perhaps you don't want to (2).","ref what"]]]],["what",0,[["*",[
      "Why do you ask ?","Does that question interest you ?","What is it you really want to know ?","Are such questions much on your mind ?",
@@ -104,5 +101,4 @@ entries prestructured as layed out in Weizenbaum's description
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like",10,[["* @be *like *",["ref alike"]]]],["different",0,[["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
 /*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var ePtTrf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",
-	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
+here: cleanings for multiple bots talking to each other*/var ePtf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
