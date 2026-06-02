@@ -1,9 +1,9 @@
 # eb
-A elizabot mod based on the mass:werk's version("EB")
+A elizabot mass:werk mod(called "EB")
 
 Go to: https://www.masswerk.at/elizabot/ to see the original version(source)
 
-CAUTION: Caution this is a BETA
+CAUTION: Caution this is a BETA(doc. incl.)
 
 # Legal Rights:
 
