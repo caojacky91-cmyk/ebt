@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><HTML LANG="en"><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8"><TITLE>Eliza (eb.js)</TITLE><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="eb.js"></SCRIPT><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="ed.js"></SCRIPT><SCRIPT SRC="t.js" LANGUAGE="JavaScript" TYPE="text/javascript"></SCRIPT><LINK REL="stylesheet" HREF="style.css" TYPE="text/css"><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">const e=new EB();var cl=new Array();const dsplCls=60;const dsplRws=20;var ci=false;function eR(){e.x();cl.length=0;ci=false;eSt();};function eSt(){var f=document.forms.eform;if(f.ue.value.trim()===''&&ci)return;var edpl=document.getElementById('edpl');var usi=pe(f.ue.value);if(e.q){f.ue.value='';if(confirm("This session is over.\nStart over?"))eR();f.ue.focus();return;}else if(usi!=''){var ur='<span style="color:#021bed">YOU</span>: '+usi.p;var rp='<span style="color:#21c628">ELIZA</span>: '+e.tf(usi.s);cl.push(ur);cl.push(rp);
+<!DOCTYPE HTML><HTML LANG="en"><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8"><TITLE>Eliza (eb.js)</TITLE><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="eb.js"></SCRIPT><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="ed.js"></SCRIPT><SCRIPT SRC="t.js" LANGUAGE="JavaScript" TYPE="text/javascript"></SCRIPT><LINK REL="stylesheet" HREF="style.css" TYPE="text/css"><SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">const e=new EB();var cl=new Array();const dsplCls=60;const dsplRws=20;var ci=false;function eR(){e.x();cl.length=0;ci=false;eSt();};function eSt(){var f=document.forms.eform;if(f.ue.value.trim()===''&&ci)return;var edpl=document.getElementById('edpl');var usi=pe(f.ue.value);if(e.q){f.ue.value='';if(confirm("This session is over.\nStart over?"))eR();f.ue.focus();return;}else if(usi!=''){var ur='<span style="color:#021bed">YOU</span>: '+usi.p;var rp='<span style="color:#21c628">ELIZA</span>: '+e.t(usi.s);cl.push(ur);cl.push(rp);
     // display nicely(fit to div with last line free - reserved for extra line caused by word wrap)
     var t=new Array();var l=0;for(var i=cl.length-1;i>=0;i--){l+=1+Math.floor(cl[i].length/dsplCls);if(l<dsplRws)t.push(cl[i]);else break;};cl=t.reverse();edpl.innerHTML=cl.join('<br>');}else if(cl.length==0){
     // no input and no saved lines->output initial
@@ -16,7 +16,7 @@ sense of being heard and understood. The speaker furher defends his impression (
 insights and reasoning ability. But again, these are the <em>speaker's</em> contribution to the conversation.</BLOCKQUOTE>For a conversation example given by Joseph Weizenbaum in his article see the <A HREF="et.html">Eliza Test</A> page.</TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR><TR><TD COLSPAN="2"><H3>About eb.js</H3>	<P>&quot;eb.js&quot; is an object oriented JavaScript library for [multiple] instances of the Eliza program.</P><PRE STYLE="line-height:120%;">Synopsis:
 
          new EB( <I>&lt;random-choice-disable-flag&gt;</I> ); <SPAN STYLE="color:333">// default 'false'</SPAN>
-         EB.prototype.tf( <I>&lt;inputstr&gt;</I> );
+         EB.prototype.t( <I>&lt;inputstr&gt;</I> );
          EB.prototype.gi();
          EB.prototype.gfn();
          EB.prototype.x();
@@ -25,12 +25,12 @@ Usage:
 
          var eliza = new EB();
          var initial = eliza.gi();
-         var reply = eliza.tf(inputstr);
+         var reply = eliza.t(inputstr);
          if (eliza.q) {
              <SPAN STYLE="color:#333">// last user input was a quit phrase</SPAN>
          }
 
-         <SPAN STYLE="color:#333">// method `tf()' returns a final phrase in case of a quit phrase
+         <SPAN STYLE="color:#333">// method `t()' returns a final phrase in case of a quit phrase
          // but you can also get a final phrase with:</SPAN>
          var final = eliza.gfn();
 
@@ -75,7 +75,7 @@ Usage:
          decompositions are matched in definition order.
          reasemblies are chosen by random or cycled through if the no-random flag ist set.
  
-         the special keyword &quot;xnn&quot; holds the rules for default phrases (no match).
+         the special keyword &quot;xn&quot; holds the rules for default phrases (no match).
          
          decomposition and reasembly syntax are uncanonical:
 
@@ -90,7 +90,7 @@ Usage:
 
          pr, psts, synonyms, kwds, decompositions all in lower case.
          all definitions are optional but at least eK should be supplied.
-         if no keywords are found `tf()' returns the default string:
+         if no keywords are found `t()' returns the default string:
          &quot;I am at a loss for words.&quot;.
 
 Note:   &quot;ePtf&quot; is not a standard ELIZA feature and was included to provide

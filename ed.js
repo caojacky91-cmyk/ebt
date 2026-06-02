@@ -24,7 +24,7 @@ entries prestructured as layed out in Weizenbaum's description
       "<reasmb>",
       "<reasmb>"
     ]]
-  ]]*/["xnn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
+  ]]*/["xn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
      "Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
      //addition(no original)
      "Intresting.","What does that make you think ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize",0,[["*",[
@@ -92,7 +92,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
      "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],
 //remade
-["%r(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",[
+["%:(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",[
      "Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
      "Should you (2) yourself ?","You want me to (2) ?","ref what"]],["* why can't i *",["Do you think you should be able to (2) ?","Do you want to be able to (2) ?","Do you believe this will help you to (2) ?",
      "Have you any idea why you can't (2) ?","ref what"]],["*",["ref what"]]]],["everyone|everybody|nobody|noone",2,[["* @everyone *",[
