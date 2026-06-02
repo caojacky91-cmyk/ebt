@@ -8,7 +8,7 @@ entries prestructured as layed out in Weizenbaum's description
 //additions(no original)
 "Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
 //additions(no original)
-"Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Time is over now. Have a nice day. Goodbye.",
+"Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Mabye we can talk this moreover soon. goodbye ",
 ];var eQ=["bye","goodbye","done","exit","quit"];var ePr=["dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
 "dreams","dream","maybe","perhaps","certainly","yes","machine","computer","machines","computer","computers","computer","were","was","you're","you are",
 //addition(no original)
@@ -45,8 +45,8 @@ entries prestructured as layed out in Weizenbaum's description
      "What does that dream suggest to you ?","Do you dream often ?","What persons appear in your dreams ?",
      "Do you believe that dreams have something to do with your problem ?"]]]],["perhaps",0,[["*",[
      "You don't seem quite certain.","Why the uncertain tone ?","Can't you be more positive ?","You aren't sure ?","Don't you know ?","How likely, would you estimate ?","How sure you are ?"]]]],
-["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xfrgn","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xfrgn","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xfrgn","I told you before,I don't understand Italian."]]]],
-["espanol",0,[["*",["ref xfrgn","I told you before, I don't understand Spanish."]]]],["xfrgn",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
+["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xfg","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xfg","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xfg","I told you before,I don't understand Italian."]]]],
+["espanol",0,[["*",["ref xfg","I told you before, I don't understand Spanish."]]]],["xfg",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
      //addition(no original)
      "How do you do. Please explain your problem.","How are you. Please tell me your problem.","Hello. I'm here to hear you.","Hi. What could be your problem ?","Hello. If you have any problem let me know.","Hi. I'm here to hear your problems.","Hi. What is you problem ?",
      "Hi. Please tell me your problems.","Hello. I'm here to hear you.","Hi. I'm here to talk. Tell me about your problems."]]]],["computer",50,[["*",["Do computers worry you ?","Why do you mention computers ?",
@@ -69,10 +69,9 @@ entries prestructured as layed out in Weizenbaum's description
      "Is it because you are (2) that you came to me ?","How long have you been (2) ?","Do you believe it is normal to be (2) ?","Do you enjoy being (2) ?","Do you know anyone else who is (2) ?",//addition(no original)
      "Have you told anyone else that you are (2) ?","What made you to be (2) ?"]],["* i @cannot *",["How do you know that you can't (3) ?","Have you tried ?","Perhaps you could (3) now.",
      "Do you really want to be able to (3) ?","What if you could (3) ?"]],["* i don't *",[
-     "Don't you really (2) ?","Why don't you (2) ?","Do you wish to be able to (2) ?","Does that trouble you ?"]],["* i feel *",[
-     "Tell me more about such feelings.","Do you often feel (2) ?",
+     "Don't you really (2) ?","Why don't you (2) ?","Do you wish to be able to (2) ?","Does that trouble you ?"]],["* i feel *",["Tell me more about such feelings.","Do you often feel (2) ?",
      "Do you enjoy feeling (2) ?","Of what does feeling (2) remind you ?"]],["* i * you *",["Perhaps in your fantasies we (2) each other.","Do you wish to (2) me ?",
-     "You seem to need to (2) me.","Do you (2) anyone else ?"]],["*",[ "You say (1) ?","Can you elaborate on that ?","Do you say (1) for some special reason ?","That's quite interesting."]]]],["you",0,[["* you remind me of *",["ref alike"]],["* you are *",[
+     "You seem to need to (2) me.","Do you (2) anyone else ?"]],["*",["You say (1) ?","Can you elaborate on that ?","Do you say (1) for some special reason ?","That's quite interesting."]]]],["you",0,[["* you remind me of *",["ref alike"]],["* you are *",[
      "What makes you think I am (2) ?","Does it please you to believe I am (2) ?","Do you sometimes wish you were (2) ?","Perhaps you would like to be (2)."]],["* you* me *",[
      "Why do you think I (2) you ?","You like to think I (2) you -- don't you ?",
      "What makes you think I (2) you ?","Really, I (2) you ?","Do you wish to believe I (2) you ?","Suppose I did (2) you -- what would that mean ?",
@@ -92,8 +91,7 @@ entries prestructured as layed out in Weizenbaum's description
      "Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
      "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],
 //remade
-["%:(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",[
-     "Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
+["%:(who|when|where|how)\\s+(.*)",0,[["(.*)",["ref what"]]]],["because",0,[["*",["Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
      "Should you (2) yourself ?","You want me to (2) ?","ref what"]],["* why can't i *",["Do you think you should be able to (2) ?","Do you want to be able to (2) ?","Do you believe this will help you to (2) ?",
      "Have you any idea why you can't (2) ?","ref what"]],["*",["ref what"]]]],["everyone|everybody|nobody|noone",2,[["* @everyone *",[
      "Really,(2) ?","Surely not (2).","Can you think of anyone in particular ?","Who, for example ?","Are you thinking of a very special person ?","Who, may I ask ?","Someone special perhaps ?","You have a particular person in mind, don't you ?","Who do you think you're talking about ?"]]]],["always",1,[["*",["Can you think of a specific example ?","When ?","What incident are you thinking of ?","Really, always ?"]]]],["alike",10,[["*",[
