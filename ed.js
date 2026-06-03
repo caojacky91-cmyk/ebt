@@ -45,8 +45,8 @@ entries prestructured as layed out in Weizenbaum's description
      "What does that dream suggest to you ?","Do you dream often ?","What persons appear in your dreams ?",
      "Do you believe that dreams have something to do with your problem ?"]]]],["perhaps",0,[["*",[
      "You don't seem quite certain.","Why the uncertain tone ?","Can't you be more positive ?","You aren't sure ?","Don't you know ?","How likely, would you estimate ?","How sure you are ?"]]]],
-["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xfg","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xfg","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xfg","I told you before,I don't understand Italian."]]]],
-["espanol",0,[["*",["ref xfg","I told you before, I don't understand Spanish."]]]],["xfg",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
+["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["ref xf","I told you before, I don't understand German."]]]],["francais",0,[["*",["ref xf","I told you before, I don't understand French."]]]],["italiano",0,[["*",["ref xf","I told you before,I don't understand Italian."]]]],
+["espanol",0,[["*",["ref xf","I told you before, I don't understand Spanish."]]]],["xf",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
      //addition(no original)
      "How do you do. Please explain your problem.","How are you. Please tell me your problem.","Hello. I'm here to hear you.","Hi. What could be your problem ?","Hello. If you have any problem let me know.","Hi. I'm here to hear your problems.","Hi. What is you problem ?",
      "Hi. Please tell me your problems.","Hello. I'm here to hear you.","Hi. I'm here to talk. Tell me about your problems."]]]],["computer",50,[["*",["Do computers worry you ?","Why do you mention computers ?",
@@ -72,14 +72,12 @@ entries prestructured as layed out in Weizenbaum's description
      "Don't you really (2) ?","Why don't you (2) ?","Do you wish to be able to (2) ?","Does that trouble you ?"]],["* i feel *",["Tell me more about such feelings.","Do you often feel (2) ?",
      "Do you enjoy feeling (2) ?","Of what does feeling (2) remind you ?"]],["* i * you *",["Perhaps in your fantasies we (2) each other.","Do you wish to (2) me ?",
      "You seem to need to (2) me.","Do you (2) anyone else ?"]],["*",["You say (1) ?","Can you elaborate on that ?","Do you say (1) for some special reason ?","That's quite interesting."]]]],["you",0,[["* you remind me of *",["ref alike"]],["* you are *",[
-     "What makes you think I am (2) ?","Does it please you to believe I am (2) ?","Do you sometimes wish you were (2) ?","Perhaps you would like to be (2)."]],["* you* me *",[
-     "Why do you think I (2) you ?","You like to think I (2) you -- don't you ?",
-     "What makes you think I (2) you ?","Really, I (2) you ?","Do you wish to believe I (2) you ?","Suppose I did (2) you -- what would that mean ?",
-     "Does someone else believe I (2) you ?"]],["* you *",["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],//modded
+     "What makes you think I am (2) ?","Does it please you to believe I am (2) ?","Do you sometimes wish you were (2) ?","Perhaps you would like to be (2)."]],["* you* me *",["Why do you think I (2) you ?","You like to think I (2) you -- don't you ?",
+     "What makes you think I (2) you ?","Really, I (2) you ?","Do you wish to believe I (2) you ?","Suppose I did (2) you -- what would that mean ?","Does someone else believe I (2) you ?"]],["* you *",["We were discussing you -- not me.","Oh, I (2) ?","You're not really talking about me -- are you ?","What are your feelings now ?"]]]],//modded
   ["yes|ok|okay",0,[["*",["You seem to be quite positive.","You are sure.","I see.","I understand.",//addition(no original)
      "You seem pretty sure."]]]],["no",0,[["* no one *",[//mod
      "Are you sure,no one (2) ?","Surely someone (2).","Can you think of anyone at all ?","Are you thinking of a very special person ?",
-     "Who,may I ask ?","You have a particular person in mind, don't you ?","Who do you think you are talking about ?"]],["*",[//mod
+     "Who, may I ask ?","You have a particular person in mind, don't you ?","Who do you think you are talking about ?"]],["*",[//mod
      "Are you saying no just to be negative ?","You are being a bit negative.","Why not ?",'Why "no" ?']]]],["my",2,[["$ * my *",[
      "Does that have anything to do with the fact that your (2) ?","Lets discuss further why your (2).","Earlier you said your (2).","But your (2)."]],["* my* @family *",[
      "Tell me more about your family.","Who else in your family (4) ?","Your (3) ?","What else comes to your mind when you think of your (3) ?"]],
