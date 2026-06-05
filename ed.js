@@ -1,17 +1,11 @@
 /*dt for eb.js
 entries prestructured as layed out in Weizenbaum's description 
-[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var eI=["How do you do.  Please tell me your problem.",
-//additions(no original)
-"Please tell me what's been bothering you.","Is something troubling you ?",
-//additions(no original)
-"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var eF=["Goodbye.  It was nice talking to you.",
-//additions(no original)
-"Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",
-//additions(no original)
-"Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Mabye we can talk this moreover soon. goodbye ",
-];var eQ=["bye","goodbye","done","exit","quit"];var ePr=["dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
-"dreams","dream","maybe","perhaps","certainly","yes","machine","computer","machines","computer","computers","computer","were","was","you're","you are",
-//addition(no original)
+[cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]*/var eI=["How do you do.  Please tell me your problem.",//additions(no original)
+"Please tell me what's been bothering you.","Is something troubling you ?",//additions(no original)
+"Hi. Are you having trouble ?","Hello. Something have been troubling you ?","Hi. Please tell me what's troubling you."];var eF=["Goodbye.  It was nice talking to you.",//additions(no original)
+"Goodbye.  This was really a nice talk.","Goodbye.  I'm looking forward to our next session.","This was a good session, wasn't it -- but time is over now. Goodbye.","Maybe we could discuss this moreover in our next session ?  Goodbye.",//additions(no original)
+"Goodbye. I hope to see you in our next session.","Goodbye. See you next time.","This was a amazing talk. I hope to see you soon. Goodbye.","Time is over for this session -- but perhaps we may start over again. Goodbye","Mabye we can talk this moreover soon. goodbye"];var eQ=["bye","goodbye","done","exit","quit"];var ePr=["dont","don't","cant","can't","wont","won't","recollect","remember","recall","remember","dreamt","dreamed",
+"dreams","dream","maybe","perhaps","certainly","yes","machine","computer","machines","computer","computers","computer","were","was","you're","you are",//addition(no original)
 "ya","you","ya're","you are","i'm","i am","same","alike","identical","alike","equivalent","alike"];var ePt=["am","are","your","my","me","you","myself","yourself","yourself","myself","i","you","you","I","my","your","i'm","you are"];var eS={"be":["am","is","are","was"],"belief":["feel","think","believe","wish"],"cannot":["can't"],"desire":["want","need"],"everyone":["everybody","nobody","noone"],"family":["mother","mom","father","dad","sister","brother","wife","hushband","children","child"],"happy":["elated","glad","better"],"sad":["unhappy","depressed","sick"]};var eK=[/*Array of
   ["<key>", <rank>, [
     ["<decomp>", [
@@ -24,8 +18,7 @@ entries prestructured as layed out in Weizenbaum's description
       "<reasmb>",
       "<reasmb>"
     ]]
-  ]]*/["xn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?",
-     "Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
+  ]]*/["xn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?","Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
      //addition(no original)
      "Intresting.","What does that make you think ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize",0,[["*",[
      "Please don't apologise.","Apologies are not necessary.","I've told you that apologies are not required.","It did not bother me.  Please continue.",
@@ -82,14 +75,12 @@ entries prestructured as layed out in Weizenbaum's description
      "Why do you ask ?","Does that question interest you ?","What is it you really want to know ?","Are such questions much on your mind ?",
      "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?",
      "Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
-     "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],
-//remade
-["%:(who|when|where|how)\\s+(.*)",0,[["(.*)",["#:what"]]]],["because",0,[["*",["Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
+     "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],//remade
+["%:(who|when|how|where)//s+(.*)",0,[["*",["#:what"]]]],["because",0,[["*",["Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
      "Should you (2) yourself ?","You want me to (2) ?","#:what"]],["* why can't i *",["Do you think you should be able to (2) ?","Do you want to be able to (2) ?","Do you believe this will help you to (2) ?",
      "Have you any idea why you can't (2) ?","#:what"]],["*",["#:what"]]]],["everyone|everybody|nobody|noone",2,[["* @everyone *",[
      "Really,(2) ?","Surely not (2).","Can you think of anyone in particular ?","Who, for example ?","Are you thinking of a very special person ?","Who, may I ask ?","Someone special perhaps ?","You have a particular person in mind, don't you ?","Who do you think you're talking about ?"]]]],["always",1,[["*",["Can you think of a specific example ?","When ?","What incident are you thinking of ?","Really, always ?"]]]],["alike",10,[["*",[
      "In what way ?","What resemblence do you see ?","What does that similarity suggest to you ?","What other connections do you see ?",
      "What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like",10,[["* @be *like *",["#:alike"]]]],["different",0,[["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
-     "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];
-/*regexp/replacement pairs to be performed as final cleanings
+     "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];/*regexp/replacement pairs to be performed as final cleanings
 here: cleanings for multiple bots talking to each other*/var ePtf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
