@@ -18,40 +18,27 @@ entries prestructured as layed out in Weizenbaum's description
       "<reasmb>",
       "<reasmb>"
     ]]
-  ]]*/["xn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?","Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",
-     //addition(no original)
-     "Intresting.","What does that make you think ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize",0,[["*",[
-     "Please don't apologise.","Apologies are not necessary.","I've told you that apologies are not required.","It did not bother me.  Please continue.",
+  ]]*/["xn",-1,[["*",["I'm not sure I understand you fully.","Please go on.","What does that suggest to you ?","Do you feel strongly about discussing such things ?","That is interesting.  Please continue.","Tell me more about that.","Does talking about this bother you ?",//addition(no original)
+     "Intresting.","What do you think about ?","That sounds intresting. Please continue."]]]],["sorry|apologise|apologize",0,[["*",["Please don't apologise.","Apologies are not necessary.","I've told you that apologies are not required.","It did not bother me.  Please continue.",
      //addition(no original)
      "You not need to apologise -- please continue."]]]],["remember",5,[["* i remember *",["Do you often think of (2) ?","Does thinking of (2) bring anything else to mind ?","What else do you recollect ?","Why do you remember (2) just now ?","What in the present situation reminds you of (2) ?",
      "What is the connection between me and (2) ?","What else does (2) remind you of ?"]],["* do you remember *",["Did you think I would forget (2) ?",
      "Why do you think I should recall (2) now ?","What about (2) ?","~what","You mentioned (2) ?"]],["* you remember *",["How could I forget (2) ?",
      "What about (2) should I remember ?","~you"]]]],["forget",5,[["* i forget *",["Can you think of why you might forget (2) ?","Why can't you remember (2) ?",
-     "How often do you think of (2) ?","Does it bother you to forget that ?","Could it be a mental block ?","Are you generally forgetful ?","Do you think you are suppressing (2) ?",
-      //addition(no original)
-     "You could think about something about what you forget ?"]],["* did you forget *",["Why do you ask for ?","Are you sure you told me ?","Would it bother you if I forgot (2) ?","Why should I recall (2) just now ?","~what","Tell me more about (2).",
-     //addition(no original)
+     "How often do you think of (2) ?","Does it bother you to forget that ?","Could it be a mental block ?","Are you generally forgetful ?","Do you think you are suppressing (2) ?",//addition(no original)
+     "You could think about something about what you forget ?"]],["* did you forget *",["Why do you ask for ?","Are you sure you told me ?","Would it bother you if I forgot (2) ?","Why should I recall (2) just now ?","~what","Tell me more about (2).",//addition(no original)
      "You told me about (2) before ?","I really forgot that ?"]]]],["if",3,[["* if *",["Do you think it's likely that (2) ?",
-     "Do you wish that (2) ?","What do you know about (2) ?","Really, if (2) ?","What would you do if (2) ?",
-     "But what are the chances that (2) ?","What does this speculation lead to ?"]]]],["dreamed",4,[["* i dreamed *",[
-     "Really, (2) ?","Have you ever fantasized (2) while you were awake ?","Have you ever dreamed (2) before ?","~dream"]]]],["dream",3,[["*",[
-     "What does that dream suggest to you ?","Do you dream often ?","What persons appear in your dreams ?",
-     "Do you believe that dreams have something to do with your problem ?"]]]],["perhaps",0,[["*",[
-     "You don't seem quite certain.","Why the uncertain tone ?","Can't you be more positive ?","You aren't sure ?","Don't you know ?","How likely, would you estimate ?","How sure you are ?"]]]],
+     "Do you wish that (2) ?","What do you know about (2) ?","Really, if (2) ?","What would you do if (2) ?","But what are the chances that (2) ?","What does this speculation lead to ?"]]]],["dreamed",4,[["* i dreamed *",["Really, (2) ?","Have you ever fantasized (2) while you were awake ?","Have you ever dreamed (2) before ?","~dream"]]]],["dream",3,[["*",[
+     "What does that dream suggest to you ?","Do you dream often ?","What persons appear in your dreams ?","Do you believe that dreams have something to do with your problem ?"]]]],["perhaps",0,[["*",["You don't seem quite certain.","Why the uncertain tone ?","Can't you be more positive ?","You aren't sure ?","Don't you know ?","How likely, would you estimate ?","How sure you are ?"]]]],
 ["name",15,[["*",[ "I am not interested in names.","I've told you before, I don't care about names -- please continue."]]]],["deutsch",0,[["*",["~xf","I told you before, I don't understand German."]]]],["francais",0,[["*",["~xf","I told you before, I don't understand French."]]]],["italiano",0,[["*",["~xf","I told you before,I don't understand Italian."]]]],
-["espanol",0,[["*",["~xf","I told you before, I don't understand Spanish."]]]],["xf",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",
-     //addition(no original)
+["espanol",0,[["*",["~xf","I told you before, I don't understand Spanish."]]]],["xf",-1,[["*",["I speak only English.","I only can speak English.","I know only English."]]]],["hello|hi",0,[["*",["How do you do.  Please state your problem.","Hi.  What seems to be your problem ?",//addition(no original)
      "How do you do. Please explain your problem.","How are you. Please tell me your problem.","Hello. I'm here to hear you.","Hi. What could be your problem ?","Hello. If you have any problem let me know.","Hi. I'm here to hear your problems.","Hi. What is you problem ?",
      "Hi. Please tell me your problems.","Hello. I'm here to hear you.","Hi. I'm here to talk. Tell me about your problems."]]]],["computer",50,[["*",["Do computers worry you ?","Why do you mention computers ?",
      "What do you think machines have to do with your problem ?","Don't you think computers can help people ?","What about machines worries you ?","What do you think about machines ?",
      "You don't think I am a computer program, do you ?"]]]],["am",0,[["* am i *",["Do you believe you are (2) ?","Would you want to be (2) ?","Do you wish I would tell you you are (2) ?",
-     "What would it mean if you were (2) ?","~what"]],["* i am *",["~i"]],["*",["Why do you say 'am' ?","I don't understand that."]]]],["are",0,[["* are you *",[
-     "Why are you interested in whether I am (2) or not ?","Would you prefer if I weren't (2) ?","Perhaps I am (2) in your fantasies.","Do you sometimes think I am (2) ?","~what","Would it matter to you ?","What if I were (2) ?"]],
- ["* you are *",["~you"]],["* are *",["Did you think they might not be (2) ?","Would you like it if they were not (2) ?","What if they were not (2) ?",
-     "Are they always (2) ?","Possibly they are (2).","Are you positive they are (2) ?"]]]],["your",0,[["* your *",[
-     "Why are you concerned over my (2) ?","What about your own (2) ?",
-     "Are you worried about someone else's (2) ?","Really, my (2) ?","What makes you think of my (2) ?","Do you want my (2) ?"]]]],
-["was",2,[["* was i *",["What if you were (2) ?","Do you think you were (2) ?","Were you (2) ?","What would it mean if you were (2) ?",'What does " (2) " suggest to you ?',"~what"]],
+     "What would it mean if you were (2) ?","~what"]],["* i am *",["~i"]],["*",["Why do you say 'am' ?","I don't understand that."]]]],["are",0,[["* are you *",["Why are you interested in whether I am (2) or not ?","Would you prefer if I weren't (2) ?","Perhaps I am (2) in your fantasies.","Do you sometimes think I am (2) ?","~what","Would it matter to you ?","What if I were (2) ?"]],["* you are *",["~you"]],["* are *",["Did you think they might not be (2) ?","Would you like it if they were not (2) ?","What if they were not (2) ?",
+     "Are they always (2) ?","Possibly they are (2).","Are you positive they are (2) ?"]]]],["your",0,[["* your *",["Why are you concerned over my (2) ?","What about your own (2) ?",
+     "Are you worried about someone else's (2) ?","Really, my (2) ?","What makes you think of my (2) ?","Do you want my (2) ?"]]]],["was",2,[["* was i *",["What if you were (2) ?","Do you think you were (2) ?","Were you (2) ?","What would it mean if you were (2) ?",'What does " (2) " suggest to you ?',"~what"]],
 ["* i was *",["Were you really ?","Why do you tell me you were (2) now ?","Perhaps I already know you were (2)."]],["* was you *",["Would you like to believe I was (2) ?","What suggests that I was (2) ?","What do you think ?","Perhaps I was (2).","What if I had been (2) ?"]]]],["i",0,[["* i @desire *",["What would it mean to you if you got (3) ?","Why do you want (3) ?",
       "Suppose you got (3) soon.","What if you never got (3) ?","What would getting (3) mean to you ?","What does wanting (3) have to do with this discussion ?"]],
  ["* i am* @sad *",["I am sorry to hear that you are (3).","Do you think coming here will help you not to be (3) ?","I'm sure it's not pleasant to be (3).","Can you explain what made you (3) ?",//addition(no original)
@@ -72,8 +59,7 @@ entries prestructured as layed out in Weizenbaum's description
  ["* my *",["Your (2) ?","Why do you say your (2) ?","Does that suggest anything else which belongs to you ?","Is it important to you that your (2) ?"]]]],["can",0,[["* can you *",["You believe I can (2) don't you ?","~what","You want me to be able to (2).","Perhaps you would like to be able to (2) yourself."]],["* can i *",[
      "Whether or not you can (2) depends on you more than on me.","Do you want to be able to (2) ?","Perhaps you don't want to (2).","~what"]]]],["what",0,[["*",[
      "Why do you ask ?","Does that question interest you ?","What is it you really want to know ?","Are such questions much on your mind ?",
-     "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?",
-     "Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
+     "What answer would please you most ?","What do you think ?","What comes to mind when you ask that ?","Have you asked such questions before ?","Have you asked anyone else ?",//addition(no original)
      "You are asking for some specific reason ?","What comes to your mind ?","Do you enjoy asking such things ?"]]]],//remade
 ["%:(who|when|how|where)\\s+(.*)",0,[["*",["~what"]]]],["because",0,[["*",["Is that the real reason ?","Don't any other reasons come to mind ?","Does that reason seem to explain anything else ?","What other reasons might there be ?"]]]],["why",0,[["* why don't you *",["Do you believe I don't (2) ?","Perhaps I will (2) in good time.",
      "Should you (2) yourself ?","You want me to (2) ?","~what"]],["* why can't i *",["Do you think you should be able to (2) ?","Do you want to be able to (2) ?","Do you believe this will help you to (2) ?",
@@ -81,4 +67,4 @@ entries prestructured as layed out in Weizenbaum's description
      "Really,(2) ?","Surely not (2).","Can you think of anyone in particular ?","Who, for example ?","Are you thinking of a very special person ?","Who, may I ask ?","Someone special perhaps ?","You have a particular person in mind, don't you ?","Who do you think you're talking about ?"]]]],["always",1,[["*",["Can you think of a specific example ?","When ?","What incident are you thinking of ?","Really, always ?"]]]],["alike",10,[["*",[
      "In what way ?","What resemblence do you see ?","What does that similarity suggest to you ?","What other connections do you see ?","What do you suppose that resemblence means ?","What is the connection, do you suppose ?","Could there really be some connection ?","How ?"]]]],["like",10,[["* @be *like *",["~alike"]]]],["different",0,[["*",["How is it different ?","What differences do you see ?","What does that difference suggest to you ?",
      "What other distinctions do you see ?","What do you suppose that disparity means ?","Could there be some connection, do you suppose ?","How ?"]]]]];/*regexp/replacement pairs to be performed as final cleanings
-here: cleanings for multiple bots talking to each other*/var ePtf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
+here: cleanings for multiple bots talking to each other*/var ePf=[	/ old old/g," old",/\bthey were( not)? me\b/g,"it was$1 me",/\bthey are( not)? me\b/g,"it is$1 me",/Are they( always)? me\b/,"it is$1 me",	/\bthat your( own)? (\w+)( now)? \?/,"that you have your$1 $2 ?",/\bI to have (\w+)/,"I have $1",/Earlier you said your( own)? (\w+)( now)?\./,"Earlier you talked about your $2."];//eof
