@@ -1,5 +1,5 @@
 # E
-An elizabot mass:werk mod(called "EB")
+An elizabot mass:werk mod(called "E")
 
 Go to: https://www.masswerk.at/elizabot/ to see the original version(source)
 
