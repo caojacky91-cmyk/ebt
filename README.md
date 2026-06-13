@@ -8,4 +8,4 @@ CAUTION: Caution this is a BETA(doc. incl.)
 # Original product
 
 "elizabot.js" by © Norbert Landsteiner 2005;
-mass:werk – media environments <https://www.masswerk.at>.
+mass:werk – media environments &lt;https://www.masswerk.at&gt;.
