@@ -5,7 +5,7 @@ By contributing you agree:
 
 And you have been met the requirements ("Requirements") defined at 1:3 as well
 
-Terms (1:1):
+Terms (1:1)
 1. You will not:
    Change variable names to make the code more readable.
    
@@ -27,7 +27,7 @@ Conventions (1:2)
   2. Camel Case
   3. Leave the old JS scripts with JS 2005 sintax
 
-Requirements (1:3):
+Requirements (1:3)
  1. Medium JS Knowledge
  2. JS RegExps Knowledge
  3. Medium HTML & CSS Knowledge
