@@ -25,7 +25,7 @@ Terms (1:1)
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
   2. Camel Case
-  3. Leave the old JS scripts with JS 2005 sintax
+  3. Leave the old JS scripts with JS 2005 style
 
 Requirements (1:3)
  1. Medium JS Knowledge
