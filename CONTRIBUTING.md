@@ -1,5 +1,7 @@
 By contributing you agree the contributing terms ("Terms")
+
 The code convientions ("Conventions") defined at 1:2
+
 And you have been met the requirements ("Requirements") defined at 1:3 as well
 
 Terms (1:1):
