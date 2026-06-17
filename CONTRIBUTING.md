@@ -20,12 +20,14 @@ Terms (1:1)
    Leave comments betwheen the code of e.js.
 
 3. You will:
-   Leave the variable names and code (all scripts) shortest as possible (& follow the Conventions (1:2))
+   Leave all scripts content shortest as possible (execepting comments & following the Conventions (1:2))
 
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
   2. Camel Case
   3. Leave the old JS scripts with JS 2005 style
+  
+  (optional) Leave comments shortest as possible
 
 Requirements (1:3)
  1. Medium JS Knowledge
