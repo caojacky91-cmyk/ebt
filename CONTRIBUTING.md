@@ -7,6 +7,7 @@ And you have been met the requirements ("Requirements") defined at 1:3 as well
 
 Terms (1:1)
 1. You will not:
+   
    Change variable names to make the code more readable.
    
    Unminify the code.
@@ -18,16 +19,13 @@ Terms (1:1)
    Break the code intentionally.
    
    Leave comments betwheen the code of e.js.
-
-3. You will:
-   Leave all scripts content shortest as possible, following the Conventions (1:2) (excepting comments)
-
+   
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
   2. Camel Case
   3. Leave the old JS scripts with JS 2005 style
   
-  (optional) Leave comments shortest as possible
+  (optional 1) Leave all scripts shortest as possible (2: excepting comments)
 
 Requirements (1:3)
  1. Medium JS Knowledge
