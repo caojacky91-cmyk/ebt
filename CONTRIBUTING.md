@@ -5,11 +5,16 @@ And you have been met the requirements ("Requirements") defined at 1:3 as well
 Terms (1:1):
 1. You will not:
    Change variable names to make the code more readable.
-   Unminify the code
-   Change filenames to make the code more readable
-   Do any other attempt of increment the code's readability
-   Break the code intentionally
-   Leave comments betwheen the code of e.js
+   
+   Unminify the code.
+   
+   Change filenames to make the code more readable.
+   
+   Do any other attempt of increment the code's readability.
+   
+   Break the code intentionally.
+   
+   Leave comments betwheen the code of e.js.
 
 3. You will:
    Leave the variable names and code (all scripts) shortest as possible (and follow the Conventions (1:2))
