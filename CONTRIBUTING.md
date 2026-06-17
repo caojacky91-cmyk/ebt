@@ -1,6 +1,7 @@
-By contributing you agree the contributing terms ("Terms")
+By contributing you agree:
 
-The code convientions ("Conventions") defined at 1:2
+1. The contributing terms ("Terms")
+2. The code convientions ("Conventions") defined at 1:2
 
 And you have been met the requirements ("Requirements") defined at 1:3 as well
 
