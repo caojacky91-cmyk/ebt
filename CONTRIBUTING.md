@@ -18,7 +18,7 @@ Terms (1:1)
    
    Break the code intentionally.
    
-   Leave comments betwheen the code of e.js.
+   Leave comments betwheen the e.js' code.
    
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
