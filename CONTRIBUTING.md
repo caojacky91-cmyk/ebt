@@ -27,6 +27,7 @@ Conventions (1:2)
   (optional 1) Leave the JS scripts with JS 2005 style  
   
   (2: Leave all scripts shortest as possible (3: excepting comments))
+
 Requirements (1:3)
  1. Medium JS Knowledge
  2. JS RegExps Knowledge
