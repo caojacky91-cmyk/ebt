@@ -20,7 +20,7 @@ Terms (1:1)
    Leave comments betwheen the code of e.js.
 
 3. You will:
-   Leave all scripts content shortest as possible (execepting comments & following the Conventions (1:2))
+   Leave all scripts content shortest as possible, following the Conventions (1:2) (excepting comments)
 
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
@@ -35,4 +35,4 @@ Requirements (1:3)
  3. Medium HTML & CSS Knowledge
  4. Have been understood how the engine works 
  
- If you don't meet any of this requirements you can't contribute.
+ If you don't meet all of this requirements you can't contribute.
