@@ -23,10 +23,10 @@ Terms (1:1)
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
   2. Camel Case
-  3. Leave the old JS scripts with JS 2005 style
   
-  (optional 1) Leave all scripts shortest as possible (2: excepting comments)
-
+  (optional 1) Leave the JS scripts with JS 2005 style  
+  
+  (2: Leave all scripts shortest as possible (3: excepting comments))
 Requirements (1:3)
  1. Medium JS Knowledge
  2. JS RegExps Knowledge
