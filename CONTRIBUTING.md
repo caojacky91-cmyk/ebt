@@ -31,4 +31,5 @@ Requirements (1:3)
  1. Medium JS Knowledge
  2. JS RegExps Knowledge
  3. Medium HTML & CSS Knowledge
+ 
  If you don't meet any of this requirements you cannot contribute.
