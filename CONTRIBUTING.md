@@ -34,4 +34,4 @@ Requirements (1:3)
  3. Medium HTML & CSS Knowledge
  4. Have been understood how the engine works 
  
- If you don't meet all of this requirements you can't contribute.
+ If you don't meet all of this requirements you could not contribute.
