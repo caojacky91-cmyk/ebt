@@ -18,20 +18,27 @@ Terms (1:1)
    
    Break the code intentionally.
    
-   Leave comments betwheen the e.js' code.
+   Leave comments between the e.js' code.
    
 Conventions (1:2)
   1. All the data variables (at d.js) must start with "e"
-  2. Camel Case
+  3. Camel case (except if it breaks the code)
+  5. Dubug logs in uppercase.
+
+  Optionals:
+
+  1. Leave the JS scripts with JS 2005 style  
   
-  (optional 1) Leave the JS scripts with JS 2005 style  
+  2. Leave all scripts shortest as possible
   
-  (2: Leave all scripts shortest as possible (3: excepting comments))
+  3. Excepting comments
 
 Requirements (1:3)
  1. Medium JS Knowledge
  2. JS RegExps Knowledge
  3. Medium HTML & CSS Knowledge
- 4. Have been understood how the engine works 
+ 4. Understand how engine works
  
  If you don't meet all of this requirements you could not contribute.
+ 
+ These terms may change at any time.
