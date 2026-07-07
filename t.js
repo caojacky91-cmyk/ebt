@@ -1,1 +1,1 @@
-function w(e,d=false){if(e.trim()=='')return'';if(d)console.log('Sanitizing entry: "'+e+'"');var v=(typeof e=='string')?e:e.value;return{p:new DOMParser().parseFromString(v,'text/html').documentElement.textContent,s:v.toString()};};
+function w(e,d=false){typeof e=='string'||(e=e.value);d&&console.log('e:"'+e+'"');return e.trim()?{p:new DOMParser().parseFromString(e,'text/html').documentElement.textContent,s:e.toString()}:'';};
